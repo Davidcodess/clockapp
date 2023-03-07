@@ -1,9 +1,64 @@
 .App-body {
 background-color: #f3f3f3;
 background-image: url("daytime.jpg");
-background-size: cover;
-object-fit: fill;
+background-size:cover;
+opacity: .95;
+object-fit:cover;
 height: 100vh;
 color: white;
+position: relative;
+}
+
+.time-container {
+    position: absolute;
+    top:57% ;
+    width: 300px;
+    height: 185px;
+    margin-bottom: 20px;
+}
+
+h1,h2 {
+    font-size: 17px;
+    position: relative;
+    left: 20px;
+}
+
+span {
+    font-size: 100px;
+    font-weight: 700;
+    left: -10px;
+    position: relative;
+    left: 10px;
+}
+
+.drop-down-button {
+    position: absolute;
+    top:90%;
+    left: 15px;
+    width: fit-content;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.btn-text {
+    margin: auto;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+}
+.arrow-btn {
+    background-color: #303030;
+    height: 6px;
+    width: 10x;
+    padding: 10px;
+    border-radius: 50%;
+    
 
 }
