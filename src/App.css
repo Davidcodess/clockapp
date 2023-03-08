@@ -33,30 +33,31 @@ span {
 
 .drop-down-button {
     position: absolute;
-    top:90%;
+    top:85%;
     left: 15px;
-    width: fit-content;
-    height: 40px;
+    width:115px;
+    height: fit-content;
     text-align: center;
     align-items: center;
     border-radius: 25px;
     height: 50px;
     border: none;
     display: flex;
-    justify-content: space-between;
-    margin: auto;
+    justify-content: space-around;
+    cursor: pointer;
 }
 
 .btn-text {
     margin: auto;
     font-size: 14px;
     font-weight: 700;
-    padding: 10px;
+
+    width: 45%;
 }
 .arrow-btn {
     background-color: #303030;
     height: 6px;
-    width: 10x;
+
     padding: 10px;
     border-radius: 50%;
     
